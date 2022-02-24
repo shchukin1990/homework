@@ -3,10 +3,18 @@ namespace homework
 {
     public class DoneNumbers
     {
+//        S3.3. Дано вещественное число а.Пользуясь только операцией умножения, получить:
+//а) a4 за две операции;
+//        б) a6 за три операции;
+//        в) a7 за четыре операции;
+//        г) a8 за три операции;
+//        д) a9 за четыре операции;
+//        е) a10 за четыре операции.
         //static void Main(string[] args)
         static void fhhffh(string[] args)
         {
-            int r, a = 2;
+            int r;
+               int a = 2;
             // а) a ^ 4 за две операции;
             r = a * a;
             r *= r;

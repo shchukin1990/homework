@@ -3,8 +3,8 @@ namespace homework
 {
     public class LoneThree
     {
-        //public LoneThree()
-            static void Main(string[] args)
+        public LoneThree()
+            //static void Main(string[] args)
 //            .Вычислить значение логического выражения при следующих значениях логических величин А, В и С: А = Истина, В = Ложь, С = Ложь:
 //а) не А и В; б) А или не В; в) А и В или С.
         {
@@ -22,7 +22,7 @@ namespace homework
             Z = false;
             result_A = !X && Y;
             result_B = X || !Y;
-            result_C = X || Y && Z;
+            result_C = X && Y || Z;
         }
     }
 }

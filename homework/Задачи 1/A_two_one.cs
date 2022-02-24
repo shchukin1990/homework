@@ -3,8 +3,8 @@ namespace homework
 {
     public class A_two_one
     {
-        //public A_two_one()
-            static void Main(string[] args)
+        public A_two_one()
+            //static void Main(string[] args)
         {
             //A2.1.Дано двузначное число. Найти:
             //а) число десятков в нем;

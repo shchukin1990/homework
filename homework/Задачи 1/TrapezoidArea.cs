@@ -4,7 +4,8 @@ namespace homework
     public class TrapezoidArea
     {
         //S2.14. Даны основания и высота равнобедренной трапеции. Найти ее периметр.
-        static void Main(string[] args)
+        //static void Main(string[] args)
+            static void Trapezoid(string[] args)
         {
             double footing = 10;
         

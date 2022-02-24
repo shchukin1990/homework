@@ -3,6 +3,7 @@ namespace homework
 {
     public class S3
     {
+        //S3.1 Составить программу обмена значениями двух переменных величин.
         //static void Main(string[] args)
             static void gfkfkfgh(string[] args)
         {

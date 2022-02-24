@@ -4,21 +4,28 @@ namespace homework
     public class squareNumb
     {
         //S2.2. Дана сторона квадрата.Найти его периметр.
-        public static void square(string[] args)
+        public static void fhfhh(string[] args)
         {
-            Console.WriteLine("Введите длины стороны квадрата: ");
-            double r = Convert.ToInt32(Console.ReadLine());
+            
+            double r = 0;
             // хотел написать еще try catch на то чтобы нельзя было ввести буквы
+            do
+            {
 
 
-            //try
-            //{
-            //    r = Convert.ToInt32(Console.ReadLine());
-            //}
-            //catch (FormatException)
-            //{
-            //    Console.WriteLine("Вы ввели буквы, будьте впредь аккуратны");
-            //}
+                try
+                {
+                    Console.WriteLine("Введите длины стороны квадрата: ");
+                    r = Convert.ToInt32(Console.ReadLine());
+
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Вы ввели буквы, будьте впредь аккуратны");
+                }
+            }
+            while (r == 0);
+
 
             if (r > 0)
             {

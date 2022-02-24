@@ -3,13 +3,13 @@ namespace homework
 {
     public class AThreeFour
     {
-        //public AThreeFour()
+        public AThreeFour()
        // A3.4. В трехзначном числе x зачеркнули первую цифру.
        // Когда полученное число умножили на 10
        // , а произведение сложили с первой цифрой числа x,
        // то получилось число n.По заданному n найти число x
        // (значение n вводится с клавиатуры, 100 ≤ n ≤ 999).
-            static void Main(string[] args)
+            //static void Main(string[] args)
         {
             int n;
             
