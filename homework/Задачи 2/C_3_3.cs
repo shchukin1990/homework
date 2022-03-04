@@ -3,8 +3,8 @@ namespace homework.Задачи2
 {
     public class C_3_3
     {
-      //  public C_3_3()
-         static void Main(string[] args)
+        public C_3_3()
+         //static void Main(string[] args)
         {
             double amount = 0;
 

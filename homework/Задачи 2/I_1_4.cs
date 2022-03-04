@@ -4,11 +4,11 @@ namespace homework.Задачи2
     public class I_1_4
 
     {
-        //public I_1_1
+        public void I_1_1()
         //I1.4. Известны два расстояния: одно в километрах, другое — в футах(1 фут 0,305 м). Какое из расстояний меньше?
 
 
-        static void Main(string[] args)
+         //public static void Main(string[] args)
         {
 
             Console.Write("Введите первое расстояние в км : ");

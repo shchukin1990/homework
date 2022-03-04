@@ -3,8 +3,8 @@ namespace homework.Задачи2
 {
     public class С3_10
     {
-        //public С3_10()
-        static void Main(string[] args)
+        public  С3_10()
+        //static void Main(string[] args)
         {
             //C3.10.Даны числа a1, a2, …, a10. Определить сумму их квадратов.
             int h;

@@ -3,6 +3,7 @@ namespace homework.Задачи2
 {
     public class I_1_3
     {
+        //I1.3. Определить максимальное и минимальное значения из двух различных вещественных чисел.
         public I_1_3()
         //  static void Main(string[] args)
         {
@@ -15,4 +16,4 @@ namespace homework.Задачи2
         }
     }
 }
-}
+

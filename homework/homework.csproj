@@ -7,5 +7,16 @@
 
   <ItemGroup>
     <Compile Remove="Program %28копировать%29.cs" />
+    <Compile Remove="1.7.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Задачи 1\" />
+    <None Remove="Задачи 2\" />
+    <None Remove="Задачи 3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Задачи 1\" />
+    <Folder Include="Задачи 2\" />
+    <Folder Include="Задачи 3\" />
   </ItemGroup>
 </Project>
